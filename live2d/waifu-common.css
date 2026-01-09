@@ -10,13 +10,8 @@
     top: auto !important;      /* 取消顶部定位 */
     z-index: 99999 !important;
     /* 确保可以拖动 */
-    cursor: move !important;
-    /* 修改这里调整初始位置 */
-    right: 20px;    /* 距离右侧距离 */
-    bottom: 20px;   /* 距离底部距离 */
-    /* 或者使用 left 和 top */
-    /* left: 50px; */
-    /* top: 50px; */
+    cursor: pointer !important;
+
     
     /* 看板娘尺寸 */
     width: 300px !important;

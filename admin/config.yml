@@ -1,8 +1,9 @@
 # Netlify CMS configuration
 backend:
   name: git-gateway
-  branch: master
-
+  repo: xyteng/xyteng.github.io
+  branch: main
+  site_domain: xyteng.github.io
 media_folder: "img"
 public_folder: "/img"
 

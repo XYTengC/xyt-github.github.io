@@ -22,9 +22,9 @@
 | Application name | 您的博客名称（如：Xyteng Blog CMS） |
 | Homepage URL | `https://xytengc.github.io` |
 | Application description | 可选，如：用于管理博客文章的Netlify CMS |
-| Authorization callback URL | `https://api.netlify.com/auth/done` |
+| Authorization callback URL | `http://localhost:4000/admin/` |
 
-**重要：** 回调URL必须设置为 `https://api.netlify.com/auth/done`，这是Netlify CMS默认使用的回调地址。
+**重要：** 对于本地开发，回调URL设置为 `http://localhost:4000/admin/`；对于生产环境，设置为 `https://xytengc.github.io/admin/`。
 
 ### 步骤6：注册应用
 点击「Register application」按钮创建应用。

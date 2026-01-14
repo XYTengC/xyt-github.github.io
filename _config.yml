@@ -36,6 +36,7 @@ exclude:
     "package.json",
     "README.md",
     "README.zh.md",
+    "GITHUB_OAUTH_SETUP.md",
   ]
 anchorjs: true # 是否开启锚点功能（文章标题旁的小锚点图标）
 # 时区（注释掉了，如需解决国内时间差，取消注释设为 CN）

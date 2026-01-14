@@ -1,8 +1,9 @@
 # Netlify CMS configuration
 backend:
-  name: git-gateway
-  branch: main
+  name: github
   repo: xytengc/xytengc.github.io
+  branch: main
+  client_id: Ov23liXGBUIHeygkv3Vu  # 请替换为您从GitHub OAuth应用获取的Client ID
 media_folder: "img"
 public_folder: "/img"
 

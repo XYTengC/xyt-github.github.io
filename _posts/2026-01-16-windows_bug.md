@@ -1,3 +1,15 @@
+---
+layout:       post
+title: windows文件图标出现黑底
+date: 2026-01-16
+updated: 2026-01-16
+author:       "花叶不湘伦"
+header-style: text
+catalog:      true
+tags:
+    - windows
+---
+
 # 文件图标出现黑底
 
 解决办法，右键桌面-显示设置，把缩放比例调到150%以下  

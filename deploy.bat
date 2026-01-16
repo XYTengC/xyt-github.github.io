@@ -35,7 +35,7 @@ git commit -m "%COMMIT_MESSAGE%"
 echo.
 
 echo 推送到远程仓库...
-git push origin master
+git push origin main
 echo.
 
 :: 检查操作结果

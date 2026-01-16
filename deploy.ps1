@@ -51,7 +51,7 @@ git commit -m "$CommitMessage"
 
 # 推送到远程仓库
 Write-Host "推送到远程仓库..." -ForegroundColor Yellow
-git push origin master
+git push origin main
 
 # 检查操作结果
 if ($LASTEXITCODE -eq 0) {

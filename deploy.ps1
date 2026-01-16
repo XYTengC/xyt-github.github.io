@@ -49,6 +49,10 @@ git add .
 Write-Host "提交更改，提交信息: $CommitMessage" -ForegroundColor Yellow
 git commit -m "$CommitMessage"
 
+# 拉取远程仓库的更改
+Write-Host "拉取远程仓库的更改..." -ForegroundColor Yellow
+git pull origin main
+
 # 推送到远程仓库
 Write-Host "推送到远程仓库..." -ForegroundColor Yellow
 git push origin main

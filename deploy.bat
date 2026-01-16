@@ -34,6 +34,10 @@ echo 提交更改...
 git commit -m "%COMMIT_MESSAGE%"
 echo.
 
+echo 拉取远程仓库的更改...
+git pull origin main
+echo.
+
 echo 推送到远程仓库...
 git push origin main
 echo.
